@@ -252,6 +252,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
+  cursor: pointer;
 }
 @media (max-width: 750px) {
   .btn {
