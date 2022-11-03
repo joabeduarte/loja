@@ -1,0 +1,15 @@
+const listaImagem = document.querySelectorAll("li img");
+const itemImagem = document.querySelector("#imagem-principal");
+
+function handleClick(imagem) {
+  const urlImg = imagem.target.src;
+  const altImg = imagem.target.alt;
+  itemImagem.src = urlImg;
+  itemImagem.alt = altImg;
+}
+
+function handleImage(imagem) {
+  imagem.addEventListener("click", handleClick);
+}
+
+listaImagem.forEach(handleImage);
