@@ -144,6 +144,7 @@ body {
   background-color: #f6f7f9;
   padding: 40px;
   box-shadow: inset 0 -320px #fff;
+  border-radius: 5px;
 }
 @media (max-width: 750px) {
   .corpo {
