@@ -184,6 +184,7 @@ body {
   }
   #imagem-principal {
   width: 300px;
+    margin: 0 auto;
 
 }
   .galeria ul li img {
