@@ -304,6 +304,9 @@ body {
   .info {
     grid-template-columns: 1fr 1fr;
   }
+    .info div{
+  margin: 0 auto;
+  }
   .info h1 {
     margin-bottom: 20px;
   }
