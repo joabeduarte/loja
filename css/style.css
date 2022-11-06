@@ -152,9 +152,11 @@ body {
     box-shadow: none;
     margin-left: 1.875rem;
     margin-right: 1.875rem;
-      margin-top: 10vh;
+    margin-top: 10vh;
     place-content: center;
-    place-items: center;
+    place-items: center; 
+    max-width: 400px;
+    margin: 0 auto;
   }
 }
 
@@ -184,13 +186,10 @@ body {
     grid-area: 1 / 1;
   }
   #imagem-principal {
-  width: 300px;
     margin: 0 auto;
-
-}
+  }
   .galeria ul li img {
-
-}
+  }
 }
 /* conteudo  */
 .conteudo {
@@ -304,8 +303,8 @@ body {
   .info {
     grid-template-columns: 1fr 1fr;
   }
-    .info div{
-  margin: 0 auto;
+  .info div {
+    margin: 0 auto;
   }
   .info h1 {
     margin-bottom: 20px;
