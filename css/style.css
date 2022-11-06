@@ -147,6 +147,9 @@ body {
   border-radius: 5px;
 }
 @media (max-width: 750px) {
+  body {
+    background-color: #fff;
+  }
   .corpo {
     grid-template-columns: 1fr;
     box-shadow: none;
@@ -154,9 +157,10 @@ body {
     margin-right: 1.875rem;
     margin-top: 10vh;
     place-content: center;
-    place-items: center; 
+    place-items: center;
     max-width: 400px;
     margin: 0 auto;
+    background-color: #fff;
   }
 }
 
@@ -305,6 +309,7 @@ body {
   }
   .info div {
     margin: 0 auto;
+    max-width: 15ch;
   }
   .info h1 {
     margin-bottom: 20px;
